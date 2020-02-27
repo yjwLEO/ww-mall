@@ -29,7 +29,7 @@ export default {
 <style scoped lang="scss">
 @import "~assets/scss/mixins";
 
-  .router-link-active {
-    color: $link-active-color;
-  }
+.router-link-active {
+  color: $link-active-color;
+}
 </style>
