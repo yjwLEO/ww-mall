@@ -21,3 +21,11 @@
   width: 100%;
   box-shadow: 0 0 10px 0 hsla(0, 6%, 58%, 0.6);
 }
+
+.g-backtop-container {
+  position: absolute;
+  right: 10px;
+  z-index: $backtop-z-index;
+  bottom: $tabbar-height +10px;
+  background-color: red($color: #000000);
+}
