@@ -4,6 +4,7 @@ function resolve(dir) {
 }
 
 module.exports = {
+  lintOnSave:false,
   configureWebpack: {
     resolve: {
       extensions: [".js", "vue", ".json"], //这些文件的后缀名可以不写
