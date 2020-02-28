@@ -12,7 +12,7 @@ const routes = [
       {
         name: "home-product",
         path: "product/:id",
-        component: () => import('pages/product')
+        component: () => import("pages/product")
       }
     ]
   },
